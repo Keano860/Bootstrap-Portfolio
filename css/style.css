@@ -6,8 +6,9 @@ body {
 }
 
 body {
+  font-size:25px;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
+ }
 
 a {
   color: #fdcc52;
@@ -30,7 +31,7 @@ hr.light {
   border-color: white;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -40,28 +41,27 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
   color: rgb(104, 42, 233);
-
 }
 
-
 h1 {
+color: white;
+  Font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 80px;
+  letter-spacing: 1px;
   font-weight: bolder;
   margin-bottom:0;
+  line-height: 90%;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight:600;
  
 }
 
 h3 {
   font-size: 60px;
   font-weight: bolder;
-}
-
-h4 {
-
 }
 
 h5 {
@@ -117,7 +117,7 @@ section h2 {
 .round {
   border:solid;
   border-radius:50%;
-  border-width:10px;
+  border-width:5px;
   border-color: rgb(104, 42, 233);
 }
 
@@ -125,7 +125,6 @@ section h2 {
   background-color:rgb(104, 42, 233);
   padding-top:30px;
 }
-
 
 #Resumebutton button {
   color: rgb(104, 42, 233);
@@ -142,6 +141,7 @@ section h2 {
   color: white;
   border-color: white;
   background-color: rgb(104, 42, 233);
+  box-shadow: 5px 5px 8px black;
   transition: 0.125s;
 }
 
@@ -152,7 +152,61 @@ section h2 {
 }
 
 .work-Title {
-text-align: center;
-padding-bottom:10px;
+  text-align: center;
+  padding-bottom:10px;
 }
 
+.card {
+  background-color: #343a40;
+  border-style: solid;
+  border-color: rgb(104, 42, 233);
+  border-width:5px;
+  border-radius:10px;
+}
+
+.card:hover{
+border-style: solid;
+border-color: white;
+border-width:5px;
+border-radius:10px;
+transition: 0.125s;
+box-shadow: 5px 20px 18px black;
+}
+
+.card-text {
+ color:white;
+}
+
+.card img {
+  max-height:600px;
+}
+
+.container2{
+  padding-top:30px;
+}
+
+.skills {
+  background-color:rgb(104, 42, 233);
+  padding-top:30px;
+}
+
+.row2 h3 {
+  width:300px;
+}
+
+.cardContainer img:hover{
+  filter: grayscale(80%); /* Found this nice effect at https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
+}
+
+.footer { /* Set footer stlye */
+  color:white;
+  background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h4 { /* Set footer font size */
+  font-size: 20px;
+}

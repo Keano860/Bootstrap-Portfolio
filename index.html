@@ -28,8 +28,8 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="images/Logos/logo3.png"></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Navbar with links to relevant sections">
+    <a class="navbar-brand" href="#"><img src="/images/Logos/logo3.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -61,7 +61,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="jumbotron">
+  <header class="jumbotron" aria-label="Section containing my name and image">
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
@@ -84,10 +84,10 @@
 
 
   <!-- Download Section -->
-  <section class="info" id="info">
+  <section class="info" id="info" aria-label="Section containing My personal information and a link to download my resume">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-6">
           <h3 class="sectionHeading">Info</h3>
           <ul>
             <li>Based in the UK</li>
@@ -96,7 +96,7 @@
           </ul>
         </div>
          <div class="row2">    
-           <div class="col-md-6"> <h3 class="sectionHeading">Resume Download</h3>
+           <div class="col-md-6 col-lg-6 text-nowrap bd-highlight"> <h3 class="sectionHeading">Resume Download</h3>
             <div ID="Resumebutton">
               <button href="/README.md" target="_blank">Resume
                   <svg ID="ButtonSvg" width="20px" height="20px" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
@@ -121,65 +121,151 @@
   </section>
 
   <!-- Work Section-->
-  <section class="work-Section">
+  <section class="work-Section" aria-label="Section containing Selectable images of my work projects with titles and descriptions">
     <div class="container-fluid">
       <div class="work-Title"><h3>My Work</h3></div>
       <div class="row">
+
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card bg-dark">
-            <img src="images/1_card.png" class="card-img-top" alt="...">
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-6 ">
+          <div Class="card">
+          <div class=" bg-dark">
+              <a href="www.test.com">
+              <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="..."/>
+              </a>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Work Item 1</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div> 
             </div>
           </div>
-        </div>
         <!-- End card 1 -->
   
         <!-- Card 2 -->
         <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card bg-dark">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
+          <div Class="card">
+          <div class=" bg-dark">
+              <a href="www.test.com">
+              <img src="/images/02-portfolio-1.jpg" class="card-img-top" alt="..."/>
+              </a>
+            </div>
             <div class="card-body">
               <h5 class="card-title">Work Item 2</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div> 
             </div>
           </div>
-        </div>
         <!-- End card 2 -->
   
-        <!-- Card 3 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card bg-dark">
-            <img src="images/3_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Work Item 3</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <!-- End card 3 -->
+              <!-- Card 3 -->
+              <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+                <div Class="card">
+                <div class=" bg-dark">
+                    <a href="www.test.com">
+                    <img src="/images/pexels-photo-1421903.jpeg" class="card-img-top" alt="..."/>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Work Item 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    </div> 
+                  </div>
+                </div>
+              <!-- End card 3 -->
 
-        <!-- Card 4 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card bg-dark">
-            <img src="images/3_card.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Work Item 4</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+       <!-- Card 4 -->
+       <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div Class="card">
+        <div class=" bg-dark">
+            <a href="www.test.com">
+            <img src="/images/02-portfolio-4.jpg" class="card-img-top" alt="..."/>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Work Item 4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            </div> 
           </div>
         </div>
-        <!-- End card 4 -->
+      <!-- End card 4 -->
+  
+      </div>
+    </div>
+    <div class="container-fluid container2">
+       <div class="row">
+
+        <!-- Card 5 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+          <div Class="card">
+          <div class=" bg-dark">
+              <a href="www.test.com">
+              <img src="/images/02-portfolio-4.jpg" class="card-img-top" alt="..."/>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Work Item 5</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              </div> 
+            </div>
+          </div>
+        <!-- End card 5 -->
+  
+        <!-- Card 6 -->
+        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+          <div Class="card">
+          <div class=" bg-dark">
+              <a href="www.test.com">
+              <img src="/images/02-portfolio-4.jpg" class="card-img-top" alt="..."/>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Work Item 6</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              </div> 
+            </div>
+          </div>
+        <!-- End card 6 -->
+  
+              <!-- Card 7 -->
+              <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+                <div Class="card">
+                <div class=" bg-dark">
+                    <a href="www.test.com">
+                    <img src="/images/02-portfolio-1.jpg" class="card-img-top" alt="..."/>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Work Item 7</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    </div> 
+                  </div>
+                </div>
+              <!-- End card 7 -->
+
+       <!-- Card 8 -->
+       <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div Class="card">
+        <div class=" bg-dark">
+            <a href="www.test.com">
+            <img src="/images/02-portfolio-3.jpg" class="card-img-top" alt="..."/>
+            </a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Work Item 8</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            </div> 
+          </div>
+        </div>
+      <!-- End card 8 -->
   
       </div>
     </div>
@@ -187,17 +273,39 @@
   
   </section>
 
-  <!-- Call to Action -->
-  <section class="signup-section" id="signup">
-  </section>
+  <!-- Skills Section -->
+<section class="skills" id="skills" aria-label="Section containing my relevant skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="sectionHeading">Skills</h3>
+        <ul>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+       <div class="row2">    
+         <div class= "col-md-6 text-nowrap bd-highlight"> <h3 class="sectionHeading">Contact Me</h3>
+          <div ID="Resumebutton">
+            <button href="/README.md" target="_blank">Email
+            </button>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+ </section>
 
-  <!-- Contact-->
-  <section class="contact-section bg-black">
-  </section>
+
 
   <footer>
-    <div class="container">
-    </div>
+    <section class="footer" aria-label="Footer containing copyright and company information">
+      <h4>&#x1F333 Save The Trees  &#x1F333</h4>
+          <p>
+        &copy; 2022 Dean Clark
+          </p>
+</section>
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
