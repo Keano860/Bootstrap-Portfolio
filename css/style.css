@@ -79,12 +79,12 @@ section h2 {
 
 /*   Dropdown menu background styles   */
 .menu {
-  background-image: url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
+  background-image: url(./images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
 
 /*  Navbar background styles    */
 .navbar {
-  background-image: url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
+  background-image: url(./images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
 
 /*      */
@@ -95,7 +95,7 @@ section h2 {
 
 /*   Jumbotraon background styles   */
 .jumbotron {
-  background-image:url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
+  background-image:url(./images/photo-1541280910158-c4e14f9c94a3.jpg);
   width:100%;
   margin-bottom: 0;
   padding-top:0px;
@@ -144,7 +144,7 @@ section h2 {
 
 /*   Set background image for work section   */
 .work-Section {
-  background-image: url(../images/pexels-stein-egil-liland-3374210.jpg);
+  background-image: url(./images/pexels-stein-egil-liland-3374210.jpg);
   padding-top:30px;
   
 }
@@ -209,7 +209,7 @@ box-shadow: 5px 20px 18px black;
 /*   Set footer style   */
 .footer { 
   color:white;
-  background-image: url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
+  background-image: url(./images/photo-1541280910158-c4e14f9c94a3.jpg);
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
