@@ -12,6 +12,7 @@ body {
 a {
   color: #fdcc52;
   transition: all .35s;
+
 }
 
 a:hover, a:focus {
@@ -38,12 +39,41 @@ h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  color: rgb(104, 42, 233);
+
+}
+
+
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom:0;
+}
+
+h2 {
+  font-size: 30px;
+ 
+}
+
+h3 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+h4 {
+
+}
+
+h5 {
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 section {
@@ -54,16 +84,75 @@ section h2 {
   font-size: 50px;
 }
 
-
-.row{
-  align-items: center;
-  text-align: center;
+.sectionHeading{
+  color:white
 }
 
-.jumbotron{
-   margin-bottom: 0;
+.menu {
+  background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
 
-.download{
-  background-color: #fcbd20;
+.navbar {
+  background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
+
+.row {
+  align-items: top;
+  text-align: left;
+}
+
+.jumbotron {
+  background-image:url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
+  width:100%;
+  margin-bottom: 0;
+  padding-top:0px;
+}
+
+.myphoto {
+  display:flex;
+  border-color: black;
+  z-index:3;
+}
+
+.round {
+  border:solid;
+  border-radius:50%;
+  border-width:10px;
+  border-color: rgb(104, 42, 233);
+}
+
+.info {
+  background-color:rgb(104, 42, 233);
+  padding-top:30px;
+}
+
+
+#Resumebutton button {
+  color: rgb(104, 42, 233);
+  font-size: 18px;
+  width:150px;
+  height: 35px;
+  grid-column:3;
+  border-color: rgb(104, 42, 233);
+  border-radius: 5px;
+  z-index:2;
+}
+
+#Resumebutton button:hover {
+  color: white;
+  border-color: white;
+  background-color: rgb(104, 42, 233);
+  transition: 0.125s;
+}
+
+.work-Section {
+  background-image: url(/images/pexels-stein-egil-liland-3374210.jpg);
+  padding-top:30px;
+  
+}
+
+.work-Title {
+text-align: center;
+padding-bottom:10px;
+}
+
