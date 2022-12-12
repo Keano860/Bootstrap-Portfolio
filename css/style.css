@@ -1,37 +1,18 @@
-/* Global styles ============= */
+/*  Global styles  */
 html,
 body {
   width: 100%;
   height: 100%;
 }
 
+/*   Common all styles   */
 body {
   font-size:25px;
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
  }
 
-a {
-  color: #fdcc52;
-  transition: all .35s;
 
-}
-
-a:hover, a:focus {
-  color: #fcbd20;
-}
-
-hr {
-  max-width: 100px;
-  margin: 25px auto 0;
-  border-width: 1px;
-  border-color: rgba(34, 34, 34, 0.1);
-}
-
-hr.light {
-  border-color: white;
-}
-
-
+/*   all heading common styles   */
 h2,
 h3,
 h4,
@@ -43,6 +24,7 @@ h6 {
   color: rgb(104, 42, 233);
 }
 
+/*   Name title styles   */
 h1 {
 color: white;
   Font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -53,22 +35,26 @@ color: white;
   line-height: 90%;
 }
 
+/*   Web developer wording style   */
 h2 {
   font-size: 40px;
   font-weight:600;
  
 }
 
+/*   Purple card heading styles   */
 h3 {
   font-size: 60px;
   font-weight: bolder;
 }
 
+/*   Card title styles   */
 h5 {
   font-size: 40px;
   font-weight: bolder;
 }
 
+/*   Paragraph styles   */
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -76,31 +62,38 @@ p {
   font-weight: bold;
 }
 
+/*   adds some space between section break and text start   */
 section {
   padding: 100px 0;
 }
 
+/*   Web developer wording style   */
 section h2 {
   font-size: 50px;
 }
 
+/*   Heading text colour for purple sections   */
 .sectionHeading{
   color:white
 }
 
+/*   Dropdown menu background styles   */
 .menu {
   background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
 
+/*  Navbar background styles    */
 .navbar {
   background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
 }
 
+/*      */
 .row {
   align-items: top;
   text-align: left;
 }
 
+/*   Jumbotraon background styles   */
 .jumbotron {
   background-image:url(../images/photo-1541280910158-c4e14f9c94a3.jpg);
   width:100%;
@@ -108,12 +101,13 @@ section h2 {
   padding-top:0px;
 }
 
+/*   make photo on top    */
 .myphoto {
   display:flex;
-  border-color: black;
   z-index:3;
 }
 
+/*   round off image with border   */
 .round {
   border:solid;
   border-radius:50%;
@@ -121,11 +115,13 @@ section h2 {
   border-color: rgb(104, 42, 233);
 }
 
+/*   info background styles   */
 .info {
   background-color:rgb(104, 42, 233);
   padding-top:30px;
 }
 
+/*   static styles for buttons   */
 #Resumebutton button {
   color: rgb(104, 42, 233);
   font-size: 18px;
@@ -137,6 +133,7 @@ section h2 {
   z-index:2;
 }
 
+/*   hover styles for buttons   */
 #Resumebutton button:hover {
   color: white;
   border-color: white;
@@ -145,17 +142,20 @@ section h2 {
   transition: 0.125s;
 }
 
+/*   Set background image for work section   */
 .work-Section {
   background-image: url(/images/pexels-stein-egil-liland-3374210.jpg);
   padding-top:30px;
   
 }
 
+/*   Align center work heading   */
 .work-Title {
   text-align: center;
   padding-bottom:10px;
 }
 
+/*   card style   */
 .card {
   background-color: #343a40;
   border-style: solid;
@@ -164,6 +164,7 @@ section h2 {
   border-radius:10px;
 }
 
+/*   Hover styles for cards   */
 .card:hover{
 border-style: solid;
 border-color: white;
@@ -173,33 +174,40 @@ transition: 0.125s;
 box-shadow: 5px 20px 18px black;
 }
 
+/*   Set card text colour   */
 .card-text {
  color:white;
 }
 
+/*   Set card image size and border radius   */
 .card img {
   max-height:600px;
-  border-radius: 4px;;
+  border-top-left-radius: 4px;
 }
 
+/*   Positioning of 2nd card row  */
 .container2{
   padding-top:30px;
 }
 
+/*   Set Skills style   */
 .skills {
   background-color:rgb(104, 42, 233);
   padding-top:30px;
 }
 
+/*   Increase column width to prevent text wrap in second comumn   */
 .row2 h3 {
   width:300px;
 }
 
+/*   Change image colour when hovering   */
 .cardContainer img:hover{
   filter: grayscale(80%); /* Found this nice effect at https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
 }
 
-.footer { /* Set footer stlye */
+/*   Set footer style   */
+.footer { 
   color:white;
   background-image: url(/images/photo-1541280910158-c4e14f9c94a3.jpg);
   padding: 30px;
@@ -208,6 +216,8 @@ box-shadow: 5px 20px 18px black;
   text-align: center;
 }
 
-.footer h4 { /* Set footer font size */
+ /* Set footer font size */
+.footer h4 {
   font-size: 20px;
 }
+
